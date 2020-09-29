@@ -7,23 +7,7 @@ import styled from 'styled-components';
 
 
 const nouns = [
-    'space',
-    'France',
-    'out',
-    'THERE!!!',
-    'foo',
-    'buzz',
-    'whatever',
-    ' ........ ',
-    '@!#$',
-    'HERE!!!',
-    'existence',
-    'fear',
-    'giraffe',
-    'voyage',
-    'station',
-    'expansion',
-    '💯💯💯💯💯',
+    
     `${accent}`
 ];
 

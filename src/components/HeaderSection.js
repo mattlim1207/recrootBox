@@ -1,6 +1,7 @@
 import React from "react";
 import "./app.css";
 import { FaBolt, FaRegMoon, FaRegSun } from "react-icons/fa";
+import { FiSun } from "react-icons/fi"
 import { Link } from "gatsby"
 import styled from "styled-components";
 
@@ -34,10 +35,10 @@ const HeaderSection = (props) => {
 
   return (
     <div className="HeaderSection" style={darkModeStyle}>
-      {renderBlog ? < HeaderLink  style={ props.darkMode ? {color: `white`} : {color: `${accent}`} } to="/posts" >{blogName}</HeaderLink> : null}
+      {renderBlog ? < HeaderLink  style={ props.darkMode ? {color: `tan`} : {color: `${accent}`} } to="/posts" >{blogName}</HeaderLink> : null}
       {darkModeSwitch ? (
         <div className="Switch">
-          {props.darkMode ? < FaRegSun onClick={props.onSwitch} /> : <FaRegMoon onClick={props.onSwitch} />  }
+          {props.darkMode ? < FiSun onClick={props.onSwitch} /> : <FaRegMoon onClick={props.onSwitch} />  }
         </div>
       ) : <div></div>}
       <TitleBlock className="HS-Selfie-and-Name">
@@ -96,7 +97,7 @@ const NameTitleBlock = styled.div`
 
 const HeaderLink = styled(Link)`
 
-  font-family:  Roboto Mono;
+  font-family:  Futura;
   text-emphasis: center;
   position: absolute;
   right: 30px;

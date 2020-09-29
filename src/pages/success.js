@@ -6,21 +6,7 @@ import styled from 'styled-components';
 import RbButton from '../components/RbButton'
 
 const nouns = [
-    'Spam', 
-    'Toot', 
-    'Prevaricate', 
-    'Run', 
-    'Thow', 
-    'Barf', 
-    'Spam', 
-    ' ........ ',  
-    '@!#$', 
-    'respire',
-    '😻😻😻😻😻😻',
-    'squish',
-    'bubble',
-    'drool',
-    'soar',
+    
 ];
 
 const Success = () => {
@@ -42,7 +28,7 @@ const Success = () => {
   return (
     <Layout>
       <Row>
-        <h3>Awesome, we'll try not to <span style={{textDecoration: `underline`}}>{noun}</span> you!</h3>
+        <h3>Awesome, thank you!</h3>
         <HomeLink to="/"> Go Home!</HomeLink>
         </Row>
     </Layout>

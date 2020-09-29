@@ -72,7 +72,7 @@ const PortfolioButton = styled.button `
   color: white;
   &:hover {
     background-color:transparent;
-    color: black;
+    color: gray;
     border: 2px solid black
   }
 `
